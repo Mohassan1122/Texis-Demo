@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import logoNew from '../assets/logo-new.png';
 import logo from '../assets/logo.png'; // FAB Icon
-import { FaTwitter, FaLinkedin, FaInstagram, FaFacebookF, FaArrowRight } from 'react-icons/fa';
+import { FaTwitter, FaYoutube, FaInstagram, FaFacebookF, FaArrowRight } from 'react-icons/fa';
 
 const Hero = () => {
     // Generate random stars on mount
@@ -118,9 +118,9 @@ const Hero = () => {
 
                     {/* Social Links */}
                     <div className="social-links mt-4">
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon"><FaLinkedin /></a>
+                        <a href="https://www.youtube.com/@texishq" target="_blank" rel="noopener noreferrer" className="social-icon"><FaYoutube /></a>
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon"><FaTwitter /></a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon"><FaInstagram /></a>
+                        <a href="https://www.instagram.com/texishq?igsh=aXF0YXE5aHloY3F0" target="_blank" rel="noopener noreferrer" className="social-icon"><FaInstagram /></a>
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon"><FaFacebookF /></a>
                     </div>
 
@@ -128,7 +128,7 @@ const Hero = () => {
             </div>
 
             <div className="footer">
-                <p className="mb-0">&copy; 2026 Texis Global Limited. All rights reserved.</p>
+                <p className="mb-0">&copy; 2026 Texis Limited. All rights reserved.</p>
             </div>
 
             <div className="fab-icon">
