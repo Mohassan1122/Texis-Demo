@@ -80,7 +80,7 @@ const Hero = () => {
                 >
 
                     {/* Main Brand Logo */}
-                    <img src={logoNew} alt="Texis Limited" className="brand-logo-large" />
+                    <img src={logoNew} alt="Texis Limited" className="brand-logo-large d-block mx-auto" />
 
                     <p className="tagline">Excellence Powered by Innovation</p>
 
